@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+body {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 200;
+}
 header {
   text-align: center;
+}
+.more-info {
+  overflow-y: scroll;
+  height: 25vh;
 }
 nav ul li {
   list-style: none;
@@ -25,9 +35,15 @@ nav ul li {
 }
 .building {
   display: block;
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
+  height: 40vh;
 }
 footer p {
-  width: 10rem;
-  margin: auto;
+  text-align: center;
+}
+td {
+  height: 5rem;
+}
+td.reserved {
+  background-color: orange;
 }
