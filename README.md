@@ -12,7 +12,7 @@ Pokud chcete, můžete jako bonusový úkol (v obou variantách) používat i v 
 Pokud chcete, můžete jako bonusový úkol (v obou variantách) používat i v této části semestrální práce yarn, npm či webpack. Bez nich by se vám případný preprocessing SCSS nebo CoffeeScriptu dělal velmi těžko. Upozorňujeme že zprovoznění těchto nástrojů na OS Windows není jendoduché a proto jej doporučujeme především těm pokročilejším z vás.
 V první, ani ve druhé části semestrální práce není možné používat LESS, použijte místo něj SCSS či SASS, pokud jej chcete používat (je to bonusový úkol), povinné je pouze použití CSS.
 
->**Vaším úkolem je tedy vytvoření 4 .html souborů a jednoho .css souboru (pojmenujte jej např. screen.css). Ty soubory by měly nějak vypadat (dle zvolené varianty) a v každém případě musí být použitelné!** .html soubory musí být vzájemně propojené (pomocí tagu <a href>) - musí se mezi nimi jít proklikávat.
+>**Vaším úkolem je tedy vytvoření 4 .html souborů a jednoho .css souboru (pojmenujte jej např. screen.css). Ty soubory by měly nějak vypadat (dle zvolené varianty) a v každém případě musí být použitelné!** .html soubory musí být vzájemně propojené (pomocí tagu <a href>) -> musí se mezi nimi jít proklikávat.
 
 >Všechny 4 .html soubory musí používat stejný .css soubor. Ve všech 4 .html souborech budete používat testovací data -> ta do HTML kódu v této části semestrální práce napište napevno, rovnou do kódu (= "hardcodujte" je tam). Teprve ve druhé části semestrální práce z těchto vašich HTML souborů uděláme ERB šablony pro Rails.
 

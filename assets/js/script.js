@@ -1,5 +1,5 @@
 var buildings = document.querySelectorAll(".building");
-
+var uls = document.querySelectorAll('.rooms');
 
   buildings.forEach(function(element) {
       var btn = element.querySelector(".btnShow");
@@ -10,14 +10,11 @@ var buildings = document.querySelectorAll(".building");
         })
       }
   });
-
-
-var uls = document.querySelectorAll('.rooms');
-
 uls.forEach(function(element) {
   var lis = element.querySelectorAll('li');
   lis.forEach(function(li) {
-    var prevContent = li.innerHTML;
+    prevContent = li.innerHTML;
+    console.log(prevContent);
     li.innerHTML += "<a href=\"schedule.html\"> Zobraz rozvrh </a>";
   })
 });
