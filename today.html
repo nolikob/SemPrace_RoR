@@ -9,7 +9,7 @@
 </head>
 <body>
         <header>
-                <h1>Choose building and room</h1>
+                <h1 id="dateToday">Rozpis místností pro den: </h1>
                 <nav>
                     <ul>
                         <li>
@@ -22,8 +22,48 @@
                 </nav>
             </header>
             <div class="container-centered">
-
-
+              <table class="tableOfTheDay">
+                <thead>
+                  <tr>
+                    <td>Predmet</td>
+                    <td>Vyucijici</td>
+                    <td>Mistnost</td>
+                    <td>Od - Do</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="ongoing">
+                    <td>EKOHELL</td>
+                    <td>Barecova</td>
+                    <td>PAR 1.1</td>
+                    <td>08:00 - 13:50</td>
+                  </tr>
+                  <tr class="ongoing">
+                    <td>OAD</td>
+                    <td>Liashenko</td>
+                    <td>PAR 1.2</td>
+                    <td>09:00 - 12:00</td>
+                  </tr>
+                  <tr class="ongoing">
+                    <td>WEB</td>
+                    <td>Jukin</td>
+                    <td>PAR 0.1</td>
+                    <td>09:45 - 13:10</td>
+                  </tr>
+                  <tr>
+                    <td>WFE</td>
+                    <td>Moudra</td>
+                    <td>PAR 1.2</td>
+                    <td>12:10 - 15:45</td>
+                  </tr>
+                  <tr>
+                    <td>CS</td>
+                    <td>Bory</td>
+                    <td>PAR 1.3</td>
+                    <td>17:15 - 20:30</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <footer>
               <p>Copyright &copy; 2017</p>
@@ -32,5 +72,6 @@
           document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
             ':35729/livereload.js?snipver=1"></' + 'script>')
           </script>
+          <script src="./assets/js/script.js" charset="utf-8"></script>
 </body>
 </html>

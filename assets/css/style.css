@@ -24,6 +24,7 @@ header {
 }
 .whole-area {
   width: 100%;
+  transition: all .35s ease;
 }
 ul li {
   list-style: none;
@@ -49,13 +50,17 @@ nav ul li a:hover{
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: all .15s ease;
+}
+.breadcrumb a:hover{
+  opacity: .5;
 }
 .breadcrumbs-nav {
   width: 100%;
   background-color: #039BE5;
 }
 .hidden {
-    display: none;
+    transform: scaleY(0);
 }
 .container-centered {
   width: 75%;
@@ -137,4 +142,32 @@ td.reserved {
 .active {
   font-weight: 900;
   border-bottom: 3px solid;
+}
+.tableOfTheDay {
+  width: 100%;
+  text-align: center;
+}
+.tableOfTheDay thead tr td {
+  border-bottom: 2px solid #121212;
+  border-collapse: collapse;
+}
+.ongoing {
+  animation: ongoing 3s ease infinite alternate;
+  font-weight: bold;
+}
+@-webkit-keyframes ongoing {
+  from { color: #121212 }
+  to { color: #03A9F4 }
+}
+@-o-keyframes ongoing {
+  from { color: #121212 }
+  to { color: #03A9F4 }
+}
+@-moz-keyframes ongoing {
+  from { color: #121212 }
+  to { color: #03A9F4 }
+}
+@keyframes ongoing {
+  from { color: #121212 }
+  to { color: #03A9F4 }
 }
