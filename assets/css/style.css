@@ -139,6 +139,19 @@ td {
 td.reserved {
   background-color: orange;
 }
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.schedule tbody tr td:first-of-type {
+  width: 7.5%;
+}
+
+.schedule tbody tr td:not(:first-of-type) {
+  border: 1px solid #bbbbbb;
+}
+
 .active {
   font-weight: 900;
   border-bottom: 3px solid;
@@ -146,10 +159,10 @@ td.reserved {
 .tableOfTheDay {
   width: 100%;
   text-align: center;
+  border-collapse: collapse;
 }
 .tableOfTheDay thead tr td {
   border-bottom: 2px solid #121212;
-  border-collapse: collapse;
 }
 .ongoing {
   animation: ongoing 3s ease infinite alternate;
